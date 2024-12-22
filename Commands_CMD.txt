@@ -1,0 +1,10 @@
+#Part 1: swapping files
+
+cd desktop
+echo hello desktop > desktop.txt
+cd ../downloads
+echo hello downloads > downloads.txt
+cd ../desktop
+move desktop.txt "C:\Users\Shalev\Downloads"
+cd ../downloads
+move downloads.txt "C:\Users\Shalev\Desktop"
